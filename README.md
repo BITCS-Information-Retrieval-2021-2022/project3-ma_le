@@ -27,6 +27,8 @@ mongo-connector         3.1.1<br>
 
     sudo service nginx start
 
+访问服务器：<br>
+http://10.108.14.126/
 
 ##  配置
 启动MongoDB
