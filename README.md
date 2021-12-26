@@ -9,10 +9,10 @@ ElasticSearch 版本7.14.2<br>
 #### 项目目录结构
 project3<br>
 >mongodb               数据库相关代码
->>create_paperinfo.py   生成基础的信息
->>crearte_score.py      整合分数生成json
->>info_score.py         将分数插入mongodb
->>paper_rank.py         计算重要性分数
+>>create_paperinfo.py   生成基础的信息<br>
+>>crearte_score.py      整合分数生成json<br>
+>>info_score.py         将分数插入mongodb<br>
+>>paper_rank.py         计算重要性分数<br>
 >project3              Django后端代码
 >>function.py           功能实现
 >web                   打包的前端
