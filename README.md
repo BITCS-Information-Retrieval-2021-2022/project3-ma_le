@@ -19,7 +19,7 @@ ElasticSearch 版本7.14.2<br>
 ├── manage.py             Django框架<br>
 └── infosearch.zip        前端代码<br>
 
-##  依赖的三方库
+##  Python依赖库
 Django                  3.2.9<br>
 django-cors-headers     3.10.1<br>
 elastic2-doc-manager    1.0.0<br>
