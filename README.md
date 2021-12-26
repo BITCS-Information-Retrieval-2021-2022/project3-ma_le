@@ -39,8 +39,8 @@ ElasticSearch 版本7.14.2<br>
 
 
 ##  依赖的三方库
-Django                  3.2.9
-django-cors-headers     3.10.1
-elastic2-doc-manager    1.0.0
-elasticsearch           7.14.2
-mongo-connector         3.1.1
+Django                  3.2.9<br><br>
+django-cors-headers     3.10.1<br>
+elastic2-doc-manager    1.0.0<br>
+elasticsearch           7.14.2<br>
+mongo-connector         3.1.1<br>
