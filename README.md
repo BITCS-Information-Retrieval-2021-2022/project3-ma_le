@@ -6,8 +6,8 @@
 项目在服务器中的路径为 /home/project/xinxi<br>
 MongoDB 版本5.0.1<br>
 ElasticSearch 版本7.14.2<br>
-### 项目目录结构
-project3
+#### 项目目录结构
+project3<br>
     |-mongodb               数据库相关代码
     |   |-create_paperinfo.py   生成基础的信息
     |   |-crearte_score.py      整合分数生成json
