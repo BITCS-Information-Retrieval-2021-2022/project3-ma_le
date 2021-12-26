@@ -6,6 +6,18 @@
 项目在服务器中的路径为 /home/project/xinxi<br>
 MongoDB 版本5.0.1<br>
 ElasticSearch 版本7.14.2<br>
+### 项目目录结构
+project3
+    |-mongodb               数据库相关代码
+    |   |-create_paperinfo.py   生成基础的信息
+    |   |-crearte_score.py      整合分数生成json
+    |   |-info_score.py         将分数插入mongodb
+    |   |-paper_rank.py         计算重要性分数
+    |-project3              Django后端代码
+    |   |-function.py           功能实现
+    |-web                   打包的前端
+    |-manage.py             Django框架
+    |-infosearch.zip        前端代码
 
 ##  依赖的三方库
 Django                  3.2.9<br>
