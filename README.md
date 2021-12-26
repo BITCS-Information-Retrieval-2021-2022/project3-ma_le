@@ -29,11 +29,11 @@ mongo-connector         3.1.1<br>
 
 
 ##  配置
-**启动MongoDB**
+启动MongoDB
 
     sudo systemctl start mongodb.service
     
-**启动ElasticSearch**
+启动ElasticSearch
     
     ~/ElasticSearch/elasticsearch-7.14.2/bin$ ./elasticsearch
       
