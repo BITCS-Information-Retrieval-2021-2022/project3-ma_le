@@ -1,7 +1,7 @@
 # Project3: 基于引文网络的论文检索引擎
  
 ##  说明
-
+**见master分支**<br>
 整个项目部署在服务器中 IP地址10.108.14.126<br>
 项目在服务器中的路径为 /home/project/xinxi<br>
 MongoDB 版本5.0.1<br>
