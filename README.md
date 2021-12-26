@@ -11,9 +11,9 @@ Python 版本3.8.8<br>
 #### 数据处理模块<br>
 引文网络的论文重要性分数计算基于Google的PageRank算法。把每一篇论文抽象成一个节点，论文与论文之间的引用关系则是一条有向边，于是引文网络中数量庞大的论文和它们之间的相互引用关系就组成了一个巨大的有向图。<br>
 如图所示，论文A和论文B都引用了论文C。在计算论文的重要性分数时，论文C的重要性分数会因为论文A和论文B对其的引用而变得更高。一篇论文的重要性分数的高低，取决于引用它的论文数量，和这些引文本身的重要性分数的高低。<br>
-![image](https://user-images.githubusercontent.com/87794598/147400365-640a97b2-f84b-4176-834d-a0aa5aaf8254.png)<br>
+![image](https://user-images.githubusercontent.com/87794598/147400421-ed8ca6b8-7414-428b-83f2-a03b25ce5ddf.png)<br>
 对于引文网络中中的每一个节点，若它的重要性分数用PR值来表示，则有：<br>
-![image](https://user-images.githubusercontent.com/87794598/147400388-4768464e-d3e0-408e-8c82-b300d9edb0cf.png)<br>
+![image](https://user-images.githubusercontent.com/87794598/147400418-6740b464-93ff-4603-82a2-32be76845e8d.png)<br>
 表达式中各符号的含义如下：<br>
 u：一篇论文<br>
 Bu：引用论文u的论文的集合<br>
