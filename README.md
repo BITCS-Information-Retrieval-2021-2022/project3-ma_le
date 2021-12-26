@@ -7,11 +7,11 @@
 MongoDB 版本5.0.1<br>
 ElasticSearch 版本7.14.2<br>
 #### 项目目录结构
-  project3
+  project3<br>
   |-mongodb               数据库相关代码<br>
   |   |-create_paperinfo.py   生成基础的信息<br>
   |   |-crearte_score.py      整合分数生成json<br>
-  |   |-info_score.py         将分数插入mongodb<br><br>
+  |   |-info_score.py         将分数插入mongodb<br>
   |   |-paper_rank.py         计算重要性分数<br>
   |-project3              Django后端代码<br>
   |   |-function.py           功能实现<br>
