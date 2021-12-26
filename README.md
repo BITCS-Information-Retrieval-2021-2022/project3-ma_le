@@ -38,7 +38,7 @@ ElasticSearch 版本7.14.2<br>
     mongo-connector -m localhost:27017 -t localhost:9200 -d elastic2_doc_manager
 
 
-依赖的三方库               版本
+##  依赖的三方库
 Django                  3.2.9
 django-cors-headers     3.10.1
 elastic2-doc-manager    1.0.0
