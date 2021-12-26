@@ -4,6 +4,8 @@
 
 整个项目部署在服务器中 IP地址10.108.14.126<br>
 项目在服务器中的路径为 /home/project/xinxi
+MongoDB 版本5.0.1
+ElasticSearch 版本7.14.2
 
 
 ##  运行项目
@@ -22,12 +24,12 @@
 
 ##  配置
 **MongoDB**
-    版本    5.0.1<br>启动：
+启动：
     
     sudo systemctl start mongodb.service
     
 **ElasticSearch**
-版本    7.14.2<br>启动： 
+启动： 
     
     ~/ElasticSearch/elasticsearch-7.14.2/bin$ ./elasticsearch
       
