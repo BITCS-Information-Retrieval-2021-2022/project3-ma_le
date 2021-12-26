@@ -7,6 +7,12 @@
 MongoDB 版本5.0.1<br>
 ElasticSearch 版本7.14.2<br>
 
+##  依赖的三方库
+Django                  3.2.9<br>
+django-cors-headers     3.10.1<br>
+elastic2-doc-manager    1.0.0<br>
+elasticsearch           7.14.2<br>
+mongo-connector         3.1.1<br>
 
 ##  运行项目
 启动ElasticSearch：<br>
@@ -37,10 +43,3 @@ ElasticSearch 版本7.14.2<br>
     
     mongo-connector -m localhost:27017 -t localhost:9200 -d elastic2_doc_manager
 
-
-##  依赖的三方库
-Django                  3.2.9<br>
-django-cors-headers     3.10.1<br>
-elastic2-doc-manager    1.0.0<br>
-elasticsearch           7.14.2<br>
-mongo-connector         3.1.1<br>
