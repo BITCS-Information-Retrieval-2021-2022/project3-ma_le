@@ -26,15 +26,16 @@ c：常数<br>
 ![image](https://user-images.githubusercontent.com/87794598/147400439-3e892f8d-9377-414d-aa6c-523e0877229e.png)<br>
 在引文网络中，会存在一些没有出度的节点，即这些论文没有引用其他任何一篇论文，每一轮迭代计算结束之前，我们会将这些节点的PR值收集起来，平均地分配到引文网络中的所有节点。<br>
 <br>
-#### 检索模块<br>
+#### 检索模块&显示模块<br>
 首页/搜索页：<br>
 ![1640501527(1)](https://user-images.githubusercontent.com/87794598/147401204-27b68562-cddb-4f92-9ce5-facd12ee6ac3.jpg)<br>
+<br>
 检索结果列表页：<br>
 ![1640501773(1)](https://user-images.githubusercontent.com/87794598/147401261-3692a8aa-2a99-4e98-a132-f7586528bff6.jpg)<br>
 搜索结果最多显示10条数据<br>
 可以点击切换按钮来选择显示ES基础检索结果列表或是基于引文网络重要性分数改善后的检索结果列表<br>
 根据重要性分数大小来对检索结果列表进行改善<br>
-点击一篇论文后可以在右侧显示出基于它的引文网络图，图中的节点包括它**自己**、**它引用的节点**、**引用了它引用的节点的节点**以及**引用了它的节点所引用的节点**
+点击一篇论文后可以在右侧显示出基于它的引文网络图，图中的节点包括它**自己**、**它引用的节点**、**引用了它引用的节点的节点**、**引用它的节点**以及**引用了它的节点所引用的节点**
 
 
 ## 项目目录结构
@@ -90,4 +91,39 @@ mongo-connector         3.1.1<br>
     sudo service nginx start
 
 Nginx的下载与配置可见：https://blog.csdn.net/lgno2/article/details/111148770<br>
+
+
+## 关于前端源代码
+
+### Project setup
+```
+npm install
+```
+### download dependency library
+```
+npm install axios
+npm install element-ui
+npm install router
+```
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+### note
+```
+if you want to Deploy the project to the server,please modify the url in src/App.vue  and  src/views/About.vue(for instance /api/)  to the realistic url of your server back end interface.
+```
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
+
 
