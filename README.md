@@ -37,7 +37,11 @@ mongo-connector         3.1.1<br>
     
     ~/ElasticSearch/elasticsearch-7.14.2/bin$ ./elasticsearch
       
-如果MongoDB中数据有变化则需要进行数据同步：<br>
+如果MongoDB中数据有变化则需要进行数据同步<br>
     
     mongo-connector -m localhost:27017 -t localhost:9200 -d elastic2_doc_manager
+    
+启动Nginx<br>
+    sudo service nginx start
+Nginx的下载与配置可见：https://blog.csdn.net/lgno2/article/details/111148770<br>
 
