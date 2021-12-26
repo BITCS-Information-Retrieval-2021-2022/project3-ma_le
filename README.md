@@ -7,14 +7,12 @@
 
 ##  配置
 **MongoDB**
-    版本    5.0.1<br>
-    启动  
+    版本    5.0.1<br>启动  
     
     sudo systemctl start mongodb.service
     
 **ElasticSearch**
-    版本    7.14.2<br>   
-    启动  
+    版本    7.14.2<br>   启动  
     
     ~/ElasticSearch/elasticsearch-7.14.2/bin$ ./elasticsearch
     
