@@ -3,9 +3,9 @@
 ##  说明
 
 整个项目部署在服务器中 IP地址10.108.14.126<br>
-项目在服务器中的路径为 /home/project/xinxi
-MongoDB 版本5.0.1
-ElasticSearch 版本7.14.2
+项目在服务器中的路径为 /home/project/xinxi<br>
+MongoDB 版本5.0.1<br>
+ElasticSearch 版本7.14.2<br>
 
 
 ##  运行项目
