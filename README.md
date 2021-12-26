@@ -29,14 +29,14 @@
 ##  运行项目
 启动ElasticSearch：
 
-~/ElasticSearch/elasticsearch-7.14.2/bin$ ./elasticsearch
+ ~/ElasticSearch/elasticsearch-7.14.2/bin$ ./elasticsearch
 
 启动Django
 
-~/project3$ python manage.py runserver 0:8000
+ ~/project3$ python manage.py runserver 0:8000
 
 启动Nginx
 
-sudo service nginx start
+ sudo service nginx start
 
 
