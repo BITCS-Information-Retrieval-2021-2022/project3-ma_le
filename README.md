@@ -12,16 +12,16 @@
     sudo systemctl start mongodb.service
     
 **ElasticSearch**
-    版本    7.14.2<br>启动： 
+版本    7.14.2<br>启动： 
     
     ~/ElasticSearch/elasticsearch-7.14.2/bin$ ./elasticsearch
     
     
-    查询ES中索引：<br>
+查询ES中索引：<br>
     
     curl localhost:9200/_cat/indices?pretty
     
-    如果MongoDB中数据有变化则需要进行数据同步：<br>
+如果MongoDB中数据有变化则需要进行数据同步：<br>
     
     mongo-connector -m localhost:27017 -t localhost:9200 -d elastic2_doc_manager
 
