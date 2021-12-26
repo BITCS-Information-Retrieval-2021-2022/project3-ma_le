@@ -13,11 +13,11 @@ project3<br>
 >>crearte_score.py      整合分数生成json<br>
 >>info_score.py         将分数插入mongodb<br>
 >>paper_rank.py         计算重要性分数<br>
->project3              Django后端代码
->>function.py           功能实现
->web                   打包的前端
->manage.py             Django框架
->infosearch.zip        前端代码
+>project3              Django后端代码<br>
+>>function.py           功能实现<br>
+>web                   打包的前端<br>
+>manage.py             Django框架<br>
+>infosearch.zip        前端代码<br>
 
 ##  依赖的三方库
 Django                  3.2.9<br>
