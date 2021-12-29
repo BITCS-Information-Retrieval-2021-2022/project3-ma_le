@@ -1,18 +1,12 @@
 # Project3: 基于引文网络的论文检索引擎
  
 ##  说明
-整个项目部署在服务器中 IP地址10.108.14.126<br>
+整个项目部署在服务器中<br>
 项目在服务器中的路径为 /home/project/xinxi<br>
 MongoDB 版本5.0.1<br>
 ElasticSearch 版本7.14.2<br>
 Python 版本3.8.8<br>
-
-#### 小组分工:<br>
-刘伟杰、陶润洲：数据处理模块<br>
-刘佳琪、纪雨晨：检索模块<br>
-汪延诚、苏晓阔：展示模块<br>
-王宇杰：后台搭建、模块之间衔接<br>
-
+<br>
 #### flake8检查代码结果:<br>
 ![1640522936(1)](https://user-images.githubusercontent.com/87794598/147408595-61e4362e-40c8-4aa3-9364-f9f0a21cc8d6.jpg)<br>
 <br>
@@ -79,7 +73,7 @@ mongo-connector         3.1.1<br>
 
     sudo service nginx start
 
-#### 访问服务器：http://10.108.14.126/
+
 
 ##  配置
 启动MongoDB
